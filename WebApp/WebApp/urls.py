@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from WebApp.views import dateNow
 from WebApp.views import regards
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('regards/', regards),
+    path('fecha/', dateNow),
 ]

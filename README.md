@@ -1,5 +1,3 @@
-# djangoPython
-Web application developed with the Django framework and Python.
 # Overview
 
 Project focused on creating a web page using the Django framework.
